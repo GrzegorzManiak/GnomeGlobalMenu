@@ -29,7 +29,7 @@
             "@girs/gobject-2.0"
 		],
 		"paths": {
-
+            "@logger": [ "./lib/logger/index.ts" ]
 		}
 	}
 }
