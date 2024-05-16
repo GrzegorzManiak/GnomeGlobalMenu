@@ -1,0 +1,7 @@
+{
+    "watch": [
+      "src/**/*.ts"
+    ],
+    "ext": "ts",
+    "exec": "bun run bun:build && bun run gjs:run"
+}

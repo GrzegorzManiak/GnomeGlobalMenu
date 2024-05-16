@@ -14,12 +14,28 @@
     "url": "git+https://github.com/GrzegorzManiak/GnomeGlobalMenu.git"
   },
   "scripts": {
+    "bun:build": "bun run ./esbuild.config.js",
+    "gjs:run": "gjs -m ./dist/build.js",
+    "bun:watch": "nodemon"
   },
   "devDependencies": {
     "bun-types": "^1.1.7",
     "nodemon": "^3.0.1",
-    "typescript": "^5.3.3"
+    "esbuild": "^0.19.3",
+    "typescript": "^5.3.3",
+    "@girs/adw-1": "^1.4.0-3.2.5",
+    "@girs/clutter-13": "^13.0.0-3.2.5",
+    "@girs/gdk-4.0": "^4.0.0-3.2.5",
+    "@girs/gio-2.0": "^2.78.0-3.2.5",
+    "@girs/glib-2.0": "^2.78.0-3.2.5",
+    "@girs/gnome-shell": "^45.0.0-beta2",
+    "@girs/gobject-2.0": "^2.78.0-3.2.5",
+    "@girs/gtk-4.0": "^4.12.4-3.2.7",
+    "@girs/meta-13": "^13.0.0-3.2.5",
+    "@girs/mtk-13": "^13.0.0-3.2.5",
+    "@girs/pango-1.0": "^1.51.0-3.2.5",
+    "@girs/shell-13": "^13.0.0-3.2.7",
+    "@girs/st-13": "^13.0.0-3.2.5"
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }
