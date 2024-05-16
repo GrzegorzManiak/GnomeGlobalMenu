@@ -29,7 +29,8 @@
             "@girs/gobject-2.0"
 		],
 		"paths": {
-            "@logger": [ "./lib/logger/index.ts" ]
+            "@logger": [ "./lib/logger/index.ts" ],
+            "@dbus": [ "./lib/dbus/index.ts" ]
 		}
 	}
 }
