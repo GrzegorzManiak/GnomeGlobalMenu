@@ -1,0 +1,29 @@
+{
+	"compilerOptions": {
+		"target": "esnext",
+		"module": "ESNext",
+		"lib": [
+			"ESNext",
+			"dom"
+		],
+		"declaration": false,
+		"noImplicitAny": true,
+		"removeComments": true,
+		"esModuleInterop": true,
+		"isolatedModules": false,
+		"sourceMap": false,
+		"emitDecoratorMetadata": true,
+		"experimentalDecorators": true,
+		"allowJs": false,
+		"moduleResolution": "node",
+		"outDir": "./build",
+		"strict": true,
+		"types": [
+			"bun-types",
+			"node"
+		],
+		"paths": {
+
+		}
+	}
+}

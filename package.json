@@ -1,0 +1,25 @@
+{
+  "name": "ggm",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "./src/main.ts",
+  "license": "GPL-3.0-only",
+  "author": {
+    "email": "ggm@grzegorz.ie",
+    "name": "Grzegorz Maniak",
+    "url": "https://Grzegorz.ie"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GrzegorzManiak/GnomeGlobalMenu.git"
+  },
+  "scripts": {
+  },
+  "devDependencies": {
+    "bun-types": "^1.1.7",
+    "nodemon": "^3.0.1",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+  }
+}
